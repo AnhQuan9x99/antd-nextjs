@@ -1,9 +1,8 @@
 import React from 'react';
 import 'antd/dist/antd.css';
-import {Layout} from 'antd' 
-import styles from '../styles/Home.module.css'
-import Sider from 'antd/lib/layout/Sider';
-import { Content, Footer, Sider, Header } from 'antd/lib/layout/layout';
+import '../styles/Home.module.css'
+import { Layout } from 'antd' 
+const { Sider, Header,Content, Footer} = Layout
 
 export default function Home() {
   return (
